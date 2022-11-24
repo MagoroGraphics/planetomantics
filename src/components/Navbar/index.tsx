@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-// import logo from '../static/icons/planetomantics_logo.svg'
-// import { ReactComponent as Logo } from "../static/icons/planetomantics_logo.svg";
+// import logo from 'src/assets/logo.svg'
 
 const NavbarWrapper = styled.div`
   background-color: #2f2f2f;
   color: white;
   padding: 3vh;
   height: 100px;
+  width:100%;
 `;
 
 const LogoSection = styled.div`
@@ -35,10 +35,10 @@ export const Navbar = () => {
   return (
     <NavbarWrapper>
       <LogoSection>
+        {/* <img src={logo} /> */}
         <Logo>PLANETOMANTICS</Logo>
         <VerticalLine/>
         {/* <Logo/> */}
-        {/* <img src={logo} /> */}
         <Slogan>MANIACALLY TAKING TECH TO THE PLANET</Slogan>
       </LogoSection>
     </NavbarWrapper>
