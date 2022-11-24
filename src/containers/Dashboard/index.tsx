@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { RoundedButton } from "../../components/Navbar/RoundedButton";
+import { RoundedButton } from "../../components/RoundedButton";
 
 const DashboardWrapper = styled.div`
   background: #1b2783;
