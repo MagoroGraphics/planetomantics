@@ -6,13 +6,13 @@ const DashboardWrapper = styled.div`
   background: #1b2783;
   background: -webkit-linear-gradient(91deg, #1b2783 0%, #587295 100%);
   background: linear-gradient(91deg, #1b2783 0%, #587295 100%);
-  margin: auto;
-  position: fixed;
+  margin: 0vh auto 0vh auto;
+  /* position: fixed;
   top: 100px;
   left: 0;
   bottom: 0;
   right: 0;
-  overflow: auto;
+  overflow: auto; */
   display: flex;
   flex-direction: row;
 `;
